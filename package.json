@@ -1,0 +1,16 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Sample app, to get weather from a location",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Scott Strool",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
