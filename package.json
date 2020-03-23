@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "Scott Strool",
   "license": "ISC",
   "dependencies": {
+    "mongodb": "^3.5.5",
     "request": "^2.88.2"
   }
 }
