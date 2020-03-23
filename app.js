@@ -12,10 +12,10 @@ console.log(`Getting weather for ${location}...`)
 
 geocode(location, (error, geoData) => {
     if (error) { return console.log('Error', error) }
-    console.log('Data', geoData.location)
+    //console.log('Data', geoData.location)
     forecast(geoData.latitude, geoData.longitude, (error, forecastData) => {
         if (error) { return console.log('Error', error) }
-        { console.log('Weather:', forecastData) }
+        { console.log('Weather:', forecastData.summary, forecastData.temperature, '%') }
     })
 })
 
